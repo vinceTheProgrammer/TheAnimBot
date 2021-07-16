@@ -4,7 +4,7 @@ const path = require('path');
 
 require('dotenv').config();
 
-let { token } = process.env.TOKEN;
+let token = process.env.TOKEN;
 
 const client = new CommandoClient({
 	commandPrefix: 'a!',
