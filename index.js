@@ -2,7 +2,9 @@ const { CommandoClient } = require('discord.js-commando');
 const cronJobs = require('./jobs/cronjobs.js');
 const path = require('path');
 
-let { token } = require('./config.json');
+require('dotenv').config();
+
+let { token } = process.env.TOKEN;
 
 const client = new CommandoClient({
 	commandPrefix: 'a!',
