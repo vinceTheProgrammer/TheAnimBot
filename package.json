@@ -1,0 +1,22 @@
+{
+  "name": "theanimbot",
+  "version": "0.0.1",
+  "description": "The Anim Coolest offical Discord bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "anim",
+    "coolest",
+    "server",
+    "bot"
+  ],
+  "author": "vinceTheProgrammer",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "discord.js-commando": "^0.12.3",
+    "node-cron": "^3.0.0"
+  }
+}
