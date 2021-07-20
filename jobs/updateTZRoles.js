@@ -17,7 +17,7 @@ module.exports = {
             } else {
                 newHour = hour + 1;
             }
-            let newRoleName = `${newHour} o'clock ; ${convertTime(`${newHour.toString()}:00`)}`
+            let newRoleName = `${newHour} o'clock ; ${convertTime(`${newHour.toString()}:00`, 'hh a')}`
             client.guilds.cache.get(guild).roles.cache.get(role).setName(newRoleName);
         }, index * rateLimit); 
         });
